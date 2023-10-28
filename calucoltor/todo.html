@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+</head>
+<body>
+    <h1>details</h1>
+    enter the name: <input type="text" id="neha">
+    <button onclick="check()">click</button>
+    <ul id="list">
+
+    </ul>
+
+    <script>
+        function check(){
+         var a=document.getElementById('neha').value
+         document.getElementById('list').innerHTML+="<li>"+a+"</li>"
+         document.getElementById('neha').value="";
+        }
+    </script>
+</body>
+</html>

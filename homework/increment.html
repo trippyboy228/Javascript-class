@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plus number and minus number</title>
+</head>
+<body>
+    <h1>increment and decrement</h1>
+    enter the number: <input id="val" value="0" placeholder="0">
+    <button onclick="check()">increment</button>
+    <button onclick="status()">decrement</button>
+
+    <script>
+        function check(){
+            var value=document.getElementById('val').value
+            value++
+            document.getElementById('val').value=value
+        }
+        function status(){
+         var value=document.getElementById('val').value
+         value++
+         document.getElementById('val').value=value
+        }
+    </script>
+</body>
+</html>

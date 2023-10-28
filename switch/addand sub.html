@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add and sub</title>
+</head>
+<body>
+    <script>
+        let num1=prompt('enter the number')
+        let num2=prompt('enter the number')
+        let cal=prompt('what you want to add,sub,mul,divetc')
+
+        let number=parseInt(num1)
+        let number2=parseInt(num2)
+        switch(cal){
+            case 'add':
+                document.write(num1+num2);
+                break;
+             case 'sub':
+                docuemnt.write(num1-num2);
+                break;
+            case 'mul':
+                docuemnt.write(num1*num2);
+                break;
+            case 'div':
+                docuemnt.write(num1/num2);
+                break;
+            default:
+                document.write('invaild');
+        }
+
+    </script>
+</body>
+</html>

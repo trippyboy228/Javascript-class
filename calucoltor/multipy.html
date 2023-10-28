@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add mul div sum</title>
+</head>
+<body>
+    enter the number: <input type="text" id="neha"><br>
+    enter the number: <input type="text" id="babu"><br>
+    enter the result: <input type="text" id="ans"><br>
+
+    <button onclick="add()">ADD</button>
+    <button onclick="sub()">SUM</button>
+    <button onclick="mul()">MUL</button>
+    <button onclick="div()">DIV</button>
+
+    <script>
+        function add(){
+            let num1=parseInt(document.getElementById('neha').value)
+            let num2=parseInt(document.getElementById('babu').value)
+
+            let ans=num1+num2
+            document.getElementById('ans').value=ans;
+        }
+        function sub(){
+            let num1=parseInt(document.getElementById('neha').value)
+            let num2=parseInt(document.getElementById('babu').value)
+
+            let ans=num1-num2
+            document.getElementById('ans').value=ans;
+        }
+        function mul(){
+            let num1=parseInt(document.getElementById('neha').value)
+            let num2=parseInt(document.getElementById('babu').value)
+
+            let ans=num1*num2
+            document.getElementById('ans').value=ans;
+        }
+        function div(){
+            let num1=parseInt(document.getElementById('neha').value)
+            let num2=parseInt(document.getElementById('babu').value)
+
+            let ans=num1/num2
+            document.getElementById('ans').value=ans;
+        }
+    </script>
+</body>
+</html>

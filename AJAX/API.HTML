@@ -1,0 +1,62 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:white;
+            text-align: center;
+
+        }
+        button{
+            color: black;
+            margin: 1vw;
+            background-color: white;
+            padding: 1vh;
+            border-radius: 6px;
+            border: none;
+        }
+        tr{
+        color:white;
+        }
+        th,td{
+            border-radius: 6px;
+            padding: 10px;
+            height:5vh;
+            width: 100vh;
+            text-align: left;
+            border: 2px solid;
+        }
+        th{
+            background-color: blueviolet;
+            color: black;
+        }
+        tr.hover{
+            color: blue;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>ajax fetching api</h1>
+    <button id="btn">data</button>
+    <button id="fetch">user data</button>
+    <table>
+        <thread>
+           
+                <tr>
+                    <th>Id</th>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Email</th>
+                    <th>Contact</th>
+                </tr>
+           
+        </thread>
+        <tbody id="data"></tbody>
+    </table>
+    <script src="API.HTML"></script>
+</body>
+</html>

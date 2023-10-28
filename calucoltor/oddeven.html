@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oddeven</title>
+</head>
+<body>
+    enter the number: <input type="text" id="odd">
+    <button onclick="check()">click</button>
+
+    <script>
+        function check(){
+            let a=parseInt(document.getElementById('odd').value)
+            if(a%2==0){
+                document.write('even number')
+            }
+            else{
+                document.write('odd number')
+            }
+        }
+        </script>
+</body>
+</html>
